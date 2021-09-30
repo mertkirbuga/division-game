@@ -1,4 +1,3 @@
-import "./App.css";
 import io from "socket.io-client";
 import React, { useEffect, useState, useRef } from "react";
 import { Route, useHistory } from "react-router-dom";
@@ -6,6 +5,7 @@ import Game from "./components/game/Game";
 import Loser from "./components/game/Loser";
 import Winner from "./components/game/Winner";
 import Main from "./components/game/Main";
+import "./App.css";
 
 const socket = io.connect("http://localhost:5000");
 

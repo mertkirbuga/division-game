@@ -2,7 +2,7 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import "./Card.css";
 
-const Card = (props) => {
+const Card = ({number, statement, result}) => {
   return (
     <div className="card">
       <div className="icon">
@@ -10,13 +10,13 @@ const Card = (props) => {
       </div>
       <div className="info">
         <p className="info-item_cliked_number">
-          {props.number === undefined ? "" : props.number}
+          {number === undefined ? "" : number}
         </p>
         <p className="info-item " style={{ padding: "5px" }}>
-          {props.statement === undefined ? "" : props.statement}
+          {statement === undefined ? "" : statement}
         </p>
         <p className="info-item ">
-          <b>{props.result === undefined ? "" : props.result}</b>
+          <b>{result === undefined ? "" : result}</b>
         </p>
       </div>
     </div>

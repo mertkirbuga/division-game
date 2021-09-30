@@ -24,7 +24,7 @@
   }
 
 @media (max-width: 600px) {
-  .winner {
+  .main {
     width: 100%;
     height: 100vh;
     margin-top: 0;
