@@ -15,14 +15,6 @@
     flex-direction: row; 
 }
 
-.header {
-    text-align: center;
-    color: #b3a7a7;
-    font-family: emoji;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
-    background-color: #f7f7f7;
-  }
-
 @media (max-width: 600px) {
   .main {
     width: 100%;

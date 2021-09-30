@@ -9,14 +9,6 @@
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
 }
 
-.header {
-  text-align: center;
-  color: #b3a7a7;
-  font-family: emoji;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
-  background-color: #f7f7f7;
-}
-
 .header-text {
   color: #928275;
 }

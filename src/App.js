@@ -20,7 +20,7 @@ function App() {
       ref.current = true;
     } else {
       const userInfo = {
-        id: Math.floor(Math.random() * (100 - 1) + 1),
+        id: Math.floor(Math.random() * (10000 - 1) + 1),
         username: "player",
       };
       setUser(userInfo);
