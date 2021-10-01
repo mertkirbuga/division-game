@@ -11,4 +11,6 @@ User should install dependencies initially by using "npm install" command. After
 
 ## Important Notes
 
-Supplied server has been used as server. It should be downloaded from supplied task url. Initially "npm install" should be run for installing necessary dependencies and "npm start" should be run to start server.
+- Supplied server has been used as server. It should be downloaded from supplied task url. Initially "npm install" should be run for installing necessary dependencies and "npm start" should be run to start server.
+
+- On local computer, two player game can be played on two browsers or two different tabs.
